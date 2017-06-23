@@ -314,9 +314,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Prusa i3
-  #define  DEFAULT_Kp 12.66
-  #define  DEFAULT_Ki 0.70
-  #define  DEFAULT_Kd 57.03
+  #define  DEFAULT_Kp 13.99
+  #define  DEFAULT_Ki 0.73
+  #define  DEFAULT_Kd 67.03
 
   // MakerGear
   //#define  DEFAULT_Kp 7.0
@@ -358,9 +358,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define  DEFAULT_bedKp 133.42
-  #define  DEFAULT_bedKi 15.42
-  #define  DEFAULT_bedKd 288.54
+  #define  DEFAULT_bedKp 305.42
+  #define  DEFAULT_bedKi 25.02
+  #define  DEFAULT_bedKd 931.99
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -460,7 +460,7 @@
 
 // Enable this feature if all enabled endstop pins are interrupt-capable.
 // This will remove the need to poll the interrupt pins, saving many CPU cycles.
-//#define ENDSTOP_INTERRUPTS_FEATURE
+#define ENDSTOP_INTERRUPTS_FEATURE
 
 //=============================================================================
 //============================== Movement Settings ============================
