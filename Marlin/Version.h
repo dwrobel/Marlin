@@ -48,7 +48,7 @@
    * here we define this default string as the date where the latest release
    * version was tagged.
    */
-  #define STRING_DISTRIBUTION_DATE "2017-07-08 23:45"
+  #define STRING_DISTRIBUTION_DATE "2017-07-26 19:00"
 
   /**
    * Required minimum Configuration.h and Configuration_adv.h file versions.
