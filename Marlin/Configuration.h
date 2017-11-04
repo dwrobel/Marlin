@@ -352,9 +352,10 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Prusa i3
-  #define  DEFAULT_Kp 13.99
-  #define  DEFAULT_Ki 0.73
-  #define  DEFAULT_Kd 67.03
+  // Calibrated using: M303 C8 E0 S240
+  #define  DEFAULT_Kp 8.75
+  #define  DEFAULT_Ki 0.45
+  #define  DEFAULT_Kd 42.30
 
   // MakerGear
   //#define  DEFAULT_Kp 7.0
@@ -396,9 +397,10 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define  DEFAULT_bedKp 305.42
-  #define  DEFAULT_bedKi 25.02
-  #define  DEFAULT_bedKd 931.99
+  // Calibrated using: M303 C8 E-1 S70
+  #define  DEFAULT_bedKp 267.85
+  #define  DEFAULT_bedKi 22.40
+  #define  DEFAULT_bedKd 800.87
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
